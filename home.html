@@ -2,19 +2,23 @@
 <html>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width" />
-  <title>Welcome to Kokoa Talk</title>
+  <title>Welcome to Kokoa Clone</title>
   <head> </head>
   <body>
     <div class="status-bar"></div>
 
-    <header>
-      <h1>Welcome to Kokoa Clone</h1>
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">Welcome to Kokoa Clone</h1>
+      <p class="welcome-header__text">
+        If you have a Kokoa Account, log in with your email or phone number.
+      </p>
     </header>
+    <form>
+      <input type="text" placeholder="Email or phone number" />
+      <input type="password" placeholder="Password" />
+      <input type="submit" value="Log In" />
+    </form>
 
-    <script
-      src="https://kit.fontawesome.com/16f539b90a.js"
-      crossorigin="anonymous"
-    ></script>
-    <i class="fas fa-battery-full"></i>
+    <a href="#">Find Kokoa Account or Password</a>
   </body>
 </html>
